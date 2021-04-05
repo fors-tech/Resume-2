@@ -1,0 +1,146 @@
+/******************************TAG SELECTORS******************************/
+body {
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 3%;
+  margin: 100px auto;
+}
+
+p {
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+/******************************ClASS SELECTORS******************************/
+/***TOP CONTAINER***/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/***MIDDLE CONTAINER***/
+.middle-container {
+  margin: 100px 0;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 145px;
+  font-size: 21px;
+  font-weight: 300;
+  padding: 15px;
+  background-color: #0EBFC6;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.icon {
+  height: 200px;
+  width: 200px;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.outro {
+  width: 35%;
+  margin: auto;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img-1 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-img-2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+/***BOTTOM CONTAINER***/
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 25px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+  font-size: 18px;
+}
+
+.copyright {
+  color: white;
+  font-size: 11px;
+  margin: 30px auto auto auto;
+}
+
+/******************************ID SELECTORS******************************/
